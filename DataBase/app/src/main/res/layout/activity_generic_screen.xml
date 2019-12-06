@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:weightSum="10"
+    tools:context=".GenericScreen">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </View>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/capture"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/training"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/history"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </View>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/about"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
